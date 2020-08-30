@@ -58,6 +58,7 @@ ext.versions = [
     "gson": "2.7",
     "guava": "19.0",
     "jodaTime": "2.9.3",
+    "okhttp": "3.14.8",
     "okhttpEventsource": "1.11.0",
     "slf4j": "1.7.21",
     "snakeyaml": "1.19",
@@ -71,6 +72,7 @@ libraries.internal = [
     "commons-codec:commons-codec:${versions.commonsCodec}",
     "com.google.guava:guava:${versions.guava}",
     "joda-time:joda-time:${versions.jodaTime}",
+    "com.squareup.okhttp3:okhttp:${versions.okhttp}",
     "com.launchdarkly:okhttp-eventsource:${versions.okhttpEventsource}",
     "org.yaml:snakeyaml:${versions.snakeyaml}",
     "redis.clients:jedis:${versions.jedis}"
